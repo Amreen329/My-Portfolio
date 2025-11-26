@@ -85,7 +85,7 @@ const Contact = () => {
   };
 
   const socialLinks = [
-    { icon: Mail, label: "Email", href: "mailto:amreen.shaik1689@gmail.com"},
+    { icon: Mail, label: "Email", href: "mailto:amreen.shaik1689@gmail.com",display: "amreen.shaik1689@gmail.com"},
     { icon: Github, label: "GitHub", href: "https://github.com/Amreen329"},
     { icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/shaik-amreen-fathima-7aa545305?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"},
     { icon: Send, label: "Telegram", href: "https://t.me/ShaikAmreenFathima"},
