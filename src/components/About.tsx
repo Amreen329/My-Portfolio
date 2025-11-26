@@ -35,20 +35,6 @@ const About = () => {
     { name: "Team Work", value: 80, color: "hsl(142, 76%, 36%)" },
   ];
 
-  const experiences = [
-    {
-      role: "Senior Frontend Developer",
-      company: "Tech Innovators Inc.",
-      period: "2022 - Present",
-      description: "Leading frontend development for enterprise-scale applications",
-    },
-    {
-      role: "Full Stack Developer",
-      company: "Digital Solutions Co.",
-      period: "2020 - 2022",
-      description: "Built and maintained full-stack web applications",
-    },
-  ];
 
   return (
     <section id="about" className="py-20 md:py-32 section-bg">
@@ -106,7 +92,7 @@ const About = () => {
 
               <div className="pt-4">
                 <Button
-                  onClick={() => window.open("/my-resume.pdf", "_blank")}
+                  onClick={() => window.open("/My-Portfolio/my-resume.pdf", "_blank")}
                   size="lg"
                   className="bg-secondary hover:bg-secondary/90 text-secondary-foreground font-body font-medium"
                 >
