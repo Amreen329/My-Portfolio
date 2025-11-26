@@ -58,7 +58,7 @@ const Hero = () => {
             <Button
               onClick={() => {
                 const link = document.createElement('a');
-                link.href = '/my resume.pdf';
+                link.href = '/my-resume.pdf';
                 link.download = 'Amreen_Fathima_Resume.pdf';
                 document.body.appendChild(link);
                 link.click();
